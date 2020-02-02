@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace model
 {
-    public class Flight
+    class Flight
     {
         //Asociaciones
         private Hashtable cities;
@@ -25,3 +25,4 @@ namespace model
         }
     }
 }
+

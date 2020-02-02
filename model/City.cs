@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace model
 {
-    class City
+    public class City
     {
         private String origin;
         private String destination;
@@ -15,7 +15,7 @@ namespace model
         private String flightNumber;
         private double latitude;
         private double longitude;
-                       
+
         public City(String origin, String destination, String date, String hour, String flightNumber, double latitude, double longitude)
         {
             this.origin = origin;
@@ -27,7 +27,7 @@ namespace model
             this.longitude = longitude;
         }
 
-        
+
         public double getLatitude()
         {
             return latitude;
@@ -100,4 +100,3 @@ namespace model
 
     }
 }
-
